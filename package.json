@@ -1,0 +1,36 @@
+{
+  "name": "reactjs-tasting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --config config/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/circy/reactjs-tasting.git"
+  },
+  "keywords": [
+    "reactjs",
+    "webpack",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Sebastian Kreissl (@circy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/circy/reactjs-tasting/issues"
+  },
+  "homepage": "https://github.com/circy/reactjs-tasting#readme",
+  "devDependencies": {
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.1",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
